@@ -1,22 +1,4 @@
-Skip to content
-nuuhu
-/
-mercy
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-mercy/index.html
-@nuuhu
-nuuhu Update index.html
- 1 contributor
-228 lines (203 sloc)  10.5 KB
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -97,9 +79,9 @@ nuuhu Update index.html
         </style>
     </head>
     <body id="test" onload="compareStr()">
-        <center><div id="dag"><p id="spen"></p><p id="spin"></p></div></center><br>
-           <h1><center>Giveth</center></h1>
-         <div id="pic"><img src="giveth.JPG" alt="mercy" ></div>
+        <center><div id="dag"><span id="spen"></span><br/><span id="spin"></span></div></center><br>
+           <h1><center>Nmesoma Giveth</center></h1>
+         <div id="pic"><img src="nmesoma.JPG" alt="mercy" ></div>
          
          <center><h1>Her Description</h1></center>
          <dl>
@@ -189,21 +171,21 @@ nuuhu Update index.html
         
         }
         if(c>=12&&c<16){
-            var boy=document.getElementById("dag").innerHTML=Date();
+            var boy=document.getElementById("spen").innerHTML=c+":"+b;
             document.getElementById("spin").innerHTML="Good afternoon ";
            document.write(boy);
             document.getElementById("dag").style.backgroundImage="url('afternoon.jpg')";
   
         }
         if(c>=16&&c<22){
-            var boy=document.getElementById("dag").innerHTML=Date();
+            var boy=document.getElementById("spen").innerHTML=c+":"+b;
             document.getElementById("spin").innerHTML="good evening";
             document.write(boy); 
             document.getElementById("dag").style.backgroundImage="url('evening.jpg')";
  
         }
         if(c>=22){
-            var boy=document.getElementById("dag").innerHTML=Date();
+            var boy=document.getElementById("spen").innerHTML=c+":"+b;
             document.getElementById("spin").innerHTML="have a good night";
              document.write(boy);
             document.getElementById("dag").style.backgroundImage="url('night.jpg')";
